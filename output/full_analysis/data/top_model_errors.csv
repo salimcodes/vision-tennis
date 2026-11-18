@@ -1,0 +1,41 @@
+model,rank,true_class,predicted_class,row_error_rate,count,true_class_support
+Claude Opus 5.5,1,slice_serve,flat_serve,0.6,3,5
+Claude Opus 5.5,2,backhand_volley,backhand_slice,0.6,3,5
+Claude Opus 5.5,3,smash,flat_serve,0.4,2,5
+Claude Opus 5.5,4,kick_serve,slice_serve,0.4,2,5
+Claude Opus 5.5,5,flat_serve,slice_serve,0.4,2,5
+Claude Opus 5.5,6,forehand_slice,forehand_flat,0.4,2,5
+Claude Opus 5.5,7,slice_serve,kick_serve,0.4,2,5
+Claude Opus 5.5,8,forehand_flat,forehand_open_stance,0.4,2,5
+ChatGPT GPT-6,1,forehand_open_stance,backhand,0.6,3,5
+ChatGPT GPT-6,2,backhand,forehand_open_stance,0.4,2,5
+ChatGPT GPT-6,3,slice_serve,kick_serve,0.4,2,5
+ChatGPT GPT-6,4,forehand_slice,forehand_flat,0.4,2,5
+ChatGPT GPT-6,5,backhand_volley,forehand_volley,0.4,2,5
+ChatGPT GPT-6,6,slice_serve,flat_serve,0.4,2,5
+ChatGPT GPT-6,7,forehand_flat,backhand_2h,0.4,2,5
+ChatGPT GPT-6,8,kick_serve,slice_serve,0.4,2,5
+Gemini Hydrogen,1,backhand_2h,forehand_flat,0.6,3,5
+Gemini Hydrogen,2,flat_serve,slice_serve,0.6,3,5
+Gemini Hydrogen,3,backhand_slice,forehand_slice,0.6,3,5
+Gemini Hydrogen,4,forehand_volley,backhand_volley,0.4,2,5
+Gemini Hydrogen,5,backhand_volley,forehand_volley,0.4,2,5
+Gemini Hydrogen,6,backhand_volley,forehand_slice,0.4,2,5
+Gemini Hydrogen,7,forehand_slice,forehand_volley,0.2,1,5
+Gemini Hydrogen,8,forehand_slice,forehand_open_stance,0.2,1,5
+X3D RGB,1,forehand_volley,forehand_slice,0.42424242424242425,14,33
+X3D RGB,2,kick_serve,flat_serve,0.36363636363636365,12,33
+X3D RGB,3,flat_serve,kick_serve,0.30303030303030304,10,33
+X3D RGB,4,slice_serve,flat_serve,0.30303030303030304,10,33
+X3D RGB,5,kick_serve,slice_serve,0.24242424242424243,8,33
+X3D RGB,6,slice_serve,smash,0.24242424242424243,8,33
+X3D RGB,7,backhand,forehand_open_stance,0.21212121212121213,7,33
+X3D RGB,8,forehand_slice,forehand_volley,0.21212121212121213,7,33
+X3D Skeleton 3D,1,forehand_slice,forehand_volley,0.4,8,20
+X3D Skeleton 3D,2,smash,kick_serve,0.3888888888888889,7,18
+X3D Skeleton 3D,3,slice_serve,kick_serve,0.3888888888888889,7,18
+X3D Skeleton 3D,4,flat_serve,kick_serve,0.3333333333333333,7,21
+X3D Skeleton 3D,5,kick_serve,slice_serve,0.2857142857142857,6,21
+X3D Skeleton 3D,6,forehand_flat,backhand_2h,0.21739130434782608,5,23
+X3D Skeleton 3D,7,forehand_volley,forehand_slice,0.2,4,20
+X3D Skeleton 3D,8,flat_serve,smash,0.19047619047619047,4,21

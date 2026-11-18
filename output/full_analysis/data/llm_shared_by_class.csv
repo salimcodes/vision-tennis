@@ -1,0 +1,13 @@
+true_class,clips,all_three_fine_wrong,all_three_broad_wrong,unanimous_same_wrong,all_three_fine_wrong_rate
+backhand,5,0,0,0,0.0
+backhand_2h,5,0,0,0,0.0
+backhand_slice,5,1,0,0,0.2
+backhand_volley,5,4,2,0,0.8
+flat_serve,5,1,0,0,0.2
+forehand_flat,5,0,0,0,0.0
+forehand_open_stance,5,0,0,0,0.0
+forehand_slice,5,1,0,0,0.2
+forehand_volley,5,2,1,0,0.4
+kick_serve,5,1,0,0,0.2
+slice_serve,5,4,0,2,0.8
+smash,5,1,1,0,0.2

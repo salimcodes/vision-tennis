@@ -1,0 +1,721 @@
+model_id,model,true_class,true_broad_category,predicted_class,predicted_broad_category,count,true_class_support,row_percentage,source_grain,source_file
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,backhand,Groundstroke,5,5,1,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,backhand_2h,Groundstroke,5,5,1,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_2h,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,backhand,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,backhand_slice,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,backhand,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,backhand_slice,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,backhand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,flat_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,kick_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,slice_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,flat_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,forehand_flat,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_flat,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_open_stance,Groundstroke,smash,Overhead,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,forehand_flat,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,forehand_slice,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,forehand_slice,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,forehand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,forehand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,kick_serve,Serve,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,slice_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,kick_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,flat_serve,Serve,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,kick_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,slice_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,flat_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_a,Claude Opus 5.5,smash,Overhead,smash,Overhead,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,backhand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,forehand_open_stance,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,backhand_2h,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_2h,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,backhand_slice,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,backhand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,backhand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,forehand_volley,Volley,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,backhand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,flat_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,kick_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,slice_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,flat_serve,Serve,smash,Overhead,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,backhand,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,backhand_2h,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_flat,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,backhand,Groundstroke,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,backhand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_open_stance,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,backhand,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,backhand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,forehand_flat,Groundstroke,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,backhand_slice,Groundstroke,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,backhand_volley,Volley,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,forehand_volley,Volley,3,5,0.6,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,forehand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,flat_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,kick_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,slice_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,kick_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,flat_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,kick_serve,Serve,2,5,0.4,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,slice_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,slice_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,backhand,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,backhand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,flat_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,forehand_volley,Volley,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,kick_serve,Serve,0,5,0,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,slice_serve,Serve,1,5,0.2,Sample-level predictions,model_comparison.csv
+llm_model_b,ChatGPT GPT-6,smash,Overhead,smash,Overhead,4,5,0.8,Sample-level predictions,model_comparison.csv
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,backhand,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,backhand_volley,Volley,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,backhand_2h,Groundstroke,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,forehand_flat,Groundstroke,3,5,0.6,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_2h,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,backhand,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,forehand_slice,Groundstroke,3,5,0.6,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,backhand_slice,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,forehand_slice,Groundstroke,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,forehand_volley,Volley,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,backhand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,backhand,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,slice_serve,Serve,3,5,0.6,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,flat_serve,Serve,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,backhand_2h,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,forehand_flat,Groundstroke,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_flat,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_open_stance,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,backhand,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,forehand_slice,Groundstroke,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,forehand_volley,Volley,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_slice,Groundstroke,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,backhand_volley,Volley,2,5,0.4,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,flat_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,forehand_flat,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,forehand_slice,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,forehand_volley,Volley,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,kick_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,forehand_volley,Volley,smash,Overhead,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,forehand_open_stance,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,kick_serve,Serve,3,5,0.6,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,kick_serve,Serve,smash,Overhead,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,backhand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,kick_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,slice_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,slice_serve,Serve,smash,Overhead,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,backhand,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,backhand_2h,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,backhand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,backhand_volley,Volley,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,flat_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,forehand_flat,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,forehand_open_stance,Groundstroke,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,forehand_slice,Groundstroke,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,forehand_volley,Volley,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,kick_serve,Serve,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,slice_serve,Serve,0,5,0,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+gemini_hydrogen,Gemini Hydrogen,smash,Overhead,smash,Overhead,1,5,0.2,Sample-level predictions,gemini_preds.csv + model_comparison.csv truth labels
+x3d_rgb,X3D RGB,backhand,Groundstroke,backhand,Groundstroke,23,33,0.696969696969697,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,backhand_2h,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,forehand_flat,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,forehand_open_stance,Groundstroke,7,33,0.21212121212121213,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand,Groundstroke,smash,Overhead,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,backhand_2h,Groundstroke,27,33,0.8181818181818182,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,forehand_open_stance,Groundstroke,6,33,0.18181818181818182,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_2h,Groundstroke,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,backhand,Groundstroke,3,33,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,backhand_slice,Groundstroke,17,33,0.5151515151515151,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,backhand_volley,Volley,7,33,0.21212121212121213,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,forehand_slice,Groundstroke,3,33,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,forehand_volley,Volley,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_slice,Groundstroke,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,backhand,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,backhand_slice,Groundstroke,6,33,0.18181818181818182,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,backhand_volley,Volley,23,33,0.696969696969697,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,forehand_open_stance,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,forehand_slice,Groundstroke,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,forehand_volley,Volley,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,backhand_volley,Volley,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,flat_serve,Serve,16,33,0.48484848484848486,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,forehand_open_stance,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,kick_serve,Serve,10,33,0.30303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,slice_serve,Serve,4,33,0.12121212121212122,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,flat_serve,Serve,smash,Overhead,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,backhand_2h,Groundstroke,3,33,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,backhand_slice,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,backhand_volley,Volley,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,forehand_flat,Groundstroke,26,33,0.7878787878787878,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,forehand_slice,Groundstroke,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_flat,Groundstroke,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,3,33,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,30,33,0.9090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_open_stance,Groundstroke,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,forehand_flat,Groundstroke,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,forehand_slice,Groundstroke,24,33,0.7272727272727273,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,forehand_volley,Volley,7,33,0.21212121212121213,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_slice,Groundstroke,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,backhand_volley,Volley,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,flat_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,forehand_flat,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,forehand_open_stance,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,forehand_slice,Groundstroke,14,33,0.42424242424242425,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,forehand_volley,Volley,17,33,0.5151515151515151,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,kick_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,slice_serve,Serve,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,forehand_volley,Volley,smash,Overhead,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,flat_serve,Serve,12,33,0.36363636363636365,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,forehand_open_stance,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,kick_serve,Serve,11,33,0.3333333333333333,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,slice_serve,Serve,8,33,0.24242424242424243,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,kick_serve,Serve,smash,Overhead,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,flat_serve,Serve,10,33,0.30303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,forehand_flat,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,forehand_open_stance,Groundstroke,2,33,0.06060606060606061,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,kick_serve,Serve,6,33,0.18181818181818182,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,slice_serve,Serve,7,33,0.21212121212121213,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,slice_serve,Serve,smash,Overhead,8,33,0.24242424242424243,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,backhand,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,backhand_2h,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,backhand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,backhand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,flat_serve,Serve,5,33,0.15151515151515152,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,forehand_flat,Groundstroke,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,forehand_open_stance,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,forehand_slice,Groundstroke,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,forehand_volley,Volley,0,33,0,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,kick_serve,Serve,3,33,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,slice_serve,Serve,1,33,0.030303030303030304,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_rgb,X3D RGB,smash,Overhead,smash,Overhead,23,33,0.696969696969697,Aggregate confusion matrix only,confusion_matrix_x3d_RGB.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,backhand,Groundstroke,15,23,0.6521739130434783,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,backhand_2h,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,backhand_slice,Groundstroke,1,23,0.043478260869565216,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,backhand_volley,Volley,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,flat_serve,Serve,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,forehand_flat,Groundstroke,1,23,0.043478260869565216,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,forehand_open_stance,Groundstroke,2,23,0.08695652173913043,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,forehand_slice,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,forehand_volley,Volley,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,kick_serve,Serve,2,23,0.08695652173913043,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,slice_serve,Serve,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand,Groundstroke,smash,Overhead,2,23,0.08695652173913043,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,backhand,Groundstroke,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,backhand_2h,Groundstroke,14,20,0.7,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,backhand_slice,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,backhand_volley,Volley,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,flat_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,forehand_flat,Groundstroke,2,20,0.1,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,forehand_open_stance,Groundstroke,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,forehand_slice,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,forehand_volley,Volley,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,kick_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,slice_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_2h,Groundstroke,smash,Overhead,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,backhand,Groundstroke,1,22,0.045454545454545456,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,backhand_2h,Groundstroke,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,backhand_slice,Groundstroke,13,22,0.5909090909090909,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,backhand_volley,Volley,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,flat_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,forehand_flat,Groundstroke,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,forehand_slice,Groundstroke,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,forehand_volley,Volley,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,kick_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,slice_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_slice,Groundstroke,smash,Overhead,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,backhand,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,backhand_2h,Groundstroke,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,backhand_slice,Groundstroke,1,22,0.045454545454545456,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,backhand_volley,Volley,14,22,0.6363636363636364,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,flat_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,forehand_flat,Groundstroke,1,22,0.045454545454545456,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,forehand_open_stance,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,forehand_slice,Groundstroke,1,22,0.045454545454545456,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,forehand_volley,Volley,2,22,0.09090909090909091,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,kick_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,slice_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,backhand_volley,Volley,smash,Overhead,1,22,0.045454545454545456,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,backhand,Groundstroke,2,21,0.09523809523809523,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,backhand_2h,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,backhand_slice,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,backhand_volley,Volley,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,flat_serve,Serve,6,21,0.2857142857142857,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,forehand_flat,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,forehand_open_stance,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,forehand_slice,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,forehand_volley,Volley,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,kick_serve,Serve,7,21,0.3333333333333333,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,slice_serve,Serve,2,21,0.09523809523809523,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,flat_serve,Serve,smash,Overhead,4,21,0.19047619047619047,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,backhand,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,backhand_2h,Groundstroke,5,23,0.21739130434782608,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,backhand_slice,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,backhand_volley,Volley,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,flat_serve,Serve,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,forehand_flat,Groundstroke,15,23,0.6521739130434783,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,forehand_slice,Groundstroke,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,forehand_volley,Volley,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,kick_serve,Serve,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,slice_serve,Serve,0,23,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_flat,Groundstroke,smash,Overhead,3,23,0.13043478260869565,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,backhand,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,3,22,0.13636363636363635,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,backhand_slice,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,backhand_volley,Volley,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,flat_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,19,22,0.8636363636363636,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,forehand_slice,Groundstroke,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,forehand_volley,Volley,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,kick_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,slice_serve,Serve,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_open_stance,Groundstroke,smash,Overhead,0,22,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,backhand,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,backhand_2h,Groundstroke,2,20,0.1,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,backhand_slice,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,backhand_volley,Volley,2,20,0.1,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,flat_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,forehand_flat,Groundstroke,2,20,0.1,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,forehand_slice,Groundstroke,6,20,0.3,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,forehand_volley,Volley,8,20,0.4,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,kick_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,slice_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_slice,Groundstroke,smash,Overhead,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,backhand,Groundstroke,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,backhand_2h,Groundstroke,3,20,0.15,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,backhand_slice,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,backhand_volley,Volley,2,20,0.1,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,flat_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,forehand_flat,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,forehand_open_stance,Groundstroke,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,forehand_slice,Groundstroke,4,20,0.2,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,forehand_volley,Volley,9,20,0.45,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,kick_serve,Serve,1,20,0.05,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,slice_serve,Serve,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,forehand_volley,Volley,smash,Overhead,0,20,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,backhand,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,backhand_2h,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,backhand_slice,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,backhand_volley,Volley,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,flat_serve,Serve,2,21,0.09523809523809523,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,forehand_flat,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,forehand_open_stance,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,forehand_slice,Groundstroke,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,forehand_volley,Volley,0,21,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,kick_serve,Serve,11,21,0.5238095238095238,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,slice_serve,Serve,6,21,0.2857142857142857,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,kick_serve,Serve,smash,Overhead,2,21,0.09523809523809523,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,backhand,Groundstroke,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,backhand_2h,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,backhand_slice,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,backhand_volley,Volley,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,flat_serve,Serve,3,18,0.16666666666666666,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,forehand_flat,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,forehand_open_stance,Groundstroke,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,forehand_slice,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,forehand_volley,Volley,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,kick_serve,Serve,7,18,0.3888888888888889,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,slice_serve,Serve,4,18,0.2222222222222222,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,slice_serve,Serve,smash,Overhead,2,18,0.1111111111111111,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,backhand,Groundstroke,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,backhand_2h,Groundstroke,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,backhand_slice,Groundstroke,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,backhand_volley,Volley,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,flat_serve,Serve,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,forehand_flat,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,forehand_open_stance,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,forehand_slice,Groundstroke,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,forehand_volley,Volley,0,18,0,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,kick_serve,Serve,7,18,0.3888888888888889,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,slice_serve,Serve,1,18,0.05555555555555555,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf
+x3d_skeleton3d,X3D Skeleton 3D,smash,Overhead,smash,Overhead,6,18,0.3333333333333333,Aggregate confusion matrix only,confusion_matrix_x3d_skeleton3d.pdf

@@ -190,9 +190,9 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 .result-legend .broad i{background:var(--ball)}
 .result-legend .llm i{background:var(--clay)}
 .result-legend .trained i{background:var(--ball)}
-.result-bars{display:flex;flex-direction:column;gap:25px;flex:1;justify-content:center}
+.result-bars{display:flex;flex-direction:column;gap:17px;flex:1;justify-content:center}
 .result-row{display:grid;grid-template-columns:330px 1fr 108px;gap:22px;align-items:center}
-.result-row .model{font-size:30px;font-weight:700;line-height:1}
+.result-row .model{font-size:28px;font-weight:700;line-height:1}
 .result-row .model small{display:block;font-family:var(--mono);font-weight:400;font-size:17px;color:var(--mute);margin-top:9px}
 .pair-track{height:52px;border-radius:10px;background:#171719;position:relative;overflow:visible}
 .pair-track .fine,.pair-track .broad{position:absolute;left:0;border-radius:10px}
@@ -207,7 +207,7 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 .heatmap-copy p{font-size:30px;line-height:1.15;color:var(--mute)}
 .heatmap{display:grid;gap:7px;align-content:center;min-height:0}
 .heatmap.broad-map{grid-template-columns:285px repeat(4,1fr)}
-.heatmap.class-map{grid-template-columns:310px repeat(5,1fr)}
+.heatmap.class-map{grid-template-columns:280px repeat(6,1fr)}
 .hm-head{font-family:var(--mono);font-size:18px;color:var(--mute);display:flex;align-items:flex-end;justify-content:center;text-align:center;padding:0 8px 8px;line-height:1.15}
 .hm-label{font-size:25px;font-weight:700;display:flex;align-items:center;padding-right:18px;line-height:1}
 .hm-label small{display:block;font-family:var(--mono);font-weight:400;font-size:15px;color:var(--mute);margin-top:6px}
@@ -250,6 +250,7 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 .shared-class .nm{font-size:27px;font-weight:700}
 .shared-class .track{height:30px;background:#171719;border-radius:99px;overflow:hidden}
 .shared-class .track span{height:100%;display:block;background:var(--clay);border-radius:99px}
+.shared-class .track.pose span{background:var(--ball)}
 .shared-class .v{font-family:var(--mono);font-size:22px;text-align:right}
 .shared-note{border-top:1px solid var(--line);padding-top:24px;font-size:28px;color:var(--mute);line-height:1.15}
 .shared-note b{color:var(--ink)}
@@ -302,8 +303,8 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 <section class="slide divider" data-name="2 · Prediction">
   <div class="num">02 · Prediction</div>
   <h2>Shot type: <span class="ball">easy.</span><br>Serve type: <span style="color:var(--clay)">hard.</span></h2>
-  <div class="chips" style="margin-top:20px"><span class="chip">trained model <b>&gt;</b> frontier models</span></div>
-  <aside class="notes"><b>What we expected, before running it:</b> (1) Every model should tell a serve from a volley from a groundstroke, because the whole-body motion is very different. (2) Serve type should be hard, because flat, slice and kick differ mainly in racket angle and spin in a split second, and THETIS has no ball, so the spin is invisible. (3) A model trained on THETIS (X3D) should beat frontier models used zero-shot, since frontier vision models already struggle with fine spatial detail (e.g. telling whether two lines intersect). <i>Edit this to match your actual proposal wording.</i></aside>
+  <div class="chips" style="margin-top:20px"><span class="chip">trained models <b>&gt;</b> frontier models</span></div>
+  <aside class="notes"><b>What we expected, before running it:</b> (1) Every model should tell a serve from a volley from a groundstroke, because the whole-body motion is very different. (2) Serve type should be hard, because flat, slice and kick differ mainly in racket angle and spin in a split second, and THETIS has no ball, so the spin is invisible. (3) Models trained on THETIS—including Pose CNN and X3D—should beat frontier models used zero-shot, while pose may be especially strong on body-defined motion and weak where racket or ball cues matter.</aside>
 </section>
 
 <!-- ═════════════════════ 3 · SETUP ═════════════════════ -->
@@ -315,44 +316,45 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
   </div>
   <div class="col" style="justify-content:center;gap:34px;border-left:1.5px solid var(--line);padding-left:48px">
     <div class="kicker">Trained</div>
-    <h2 style="font-size:84px">X3D · video<br>X3D · 3D skeleton</h2>
-    <div class="chips"><span class="chip">held-out test set</span></div>
+    <h2 style="font-size:70px">Pose CNN · MediaPipe<br>X3D · video<br>X3D · 3D skeleton</h2>
+    <div class="chips"><span class="chip">Pose CNN: same 60 clips</span><span class="chip">X3D: held-out sets</span></div>
   </div>
-  <aside class="notes"><b>Data:</b> THETIS has 12 stroke classes recorded with Kinect and no visible ball. <b>Frontier condition:</b> Claude Opus 5.5, ChatGPT GPT-6 and Gemini Hydrogen each classified the same 60 RGB clips, with 5 clips per class and hidden filenames. <b>Trained condition:</b> X3D RGB used 396 held-out clips. X3D Skeleton 3D used 250. <b>Measures:</b> exact class accuracy and broad category accuracy across groundstroke, volley, serve and overhead.</aside>
+  <aside class="notes"><b>Data:</b> THETIS has 12 stroke classes recorded with Kinect and no visible ball. <b>Shared 60-clip set:</b> Claude Opus 5.5, ChatGPT GPT-6, Gemini Hydrogen and Pose CNN classify the same five clips per class. Pose CNN is a one-dimensional CNN trained on pose sequences extracted with MediaPipe Holistic. <b>X3D condition:</b> X3D RGB uses 396 held-out clips. X3D Skeleton 3D uses 250. <b>Measures:</b> exact class accuracy and broad category accuracy across groundstroke, volley, serve and overhead.</aside>
 </section>
 
 <!-- ═════════════════════ 4 · RESULTS ═════════════════════ -->
 <section class="slide" data-name="4 · Overall accuracy" style="gap:36px;padding:76px 120px 72px">
   <div class="kicker">Results</div>
-  <h2 style="font-size:86px">Models recognize the shot family before the <span class="ball">subtype.</span></h2>
+  <h2 style="font-size:82px">Pose CNN reaches <span class="ball">68% exact</span> and 90% broad accuracy.</h2>
   <div class="result-legend"><span><i></i>12-class accuracy</span><span class="broad"><i></i>4-category accuracy</span></div>
   <div class="result-bars">
+    <div class="result-row"><div class="model">Pose CNN<small>trained pose · n=60</small></div><div class="pair-track"><span class="broad" style="width:90%"></span><span class="fine" style="width:68.3%"></span></div><div class="vals"><b>90%</b><br>68%</div></div>
     <div class="result-row"><div class="model">X3D RGB<small>trained · n=396</small></div><div class="pair-track"><span class="broad" style="width:83.1%"></span><span class="fine" style="width:61.6%"></span></div><div class="vals"><b>83%</b><br>62%</div></div>
     <div class="result-row"><div class="model">X3D Skeleton 3D<small>trained · n=250</small></div><div class="pair-track"><span class="broad" style="width:76%"></span><span class="fine" style="width:52.8%"></span></div><div class="vals"><b>76%</b><br>53%</div></div>
     <div class="result-row"><div class="model">Claude Opus 5.5<small>frontier · n=60</small></div><div class="pair-track"><span class="broad" style="width:80%"></span><span class="fine" style="width:51.7%"></span></div><div class="vals"><b>80%</b><br>52%</div></div>
     <div class="result-row"><div class="model">ChatGPT GPT-6<small>frontier · n=60</small></div><div class="pair-track"><span class="broad" style="width:86.7%"></span><span class="fine" style="width:36.7%"></span></div><div class="vals"><b>87%</b><br>37%</div></div>
     <div class="result-row"><div class="model">Gemini Hydrogen<small>frontier · n=60</small></div><div class="pair-track"><span class="broad" style="width:71.7%"></span><span class="fine" style="width:26.7%"></span></div><div class="vals"><b>72%</b><br>27%</div></div>
   </div>
-  <div class="cite">Broad categories: groundstroke, volley, serve, overhead. Test sets differ by model family.</div>
-  <aside class="notes">The broad category score is higher than exact 12-class accuracy for every model. ChatGPT shows the largest gap: 87% broad accuracy and 37% exact accuracy. X3D RGB leads exact classification at 62%. The frontier models use the same 60 clips. The trained models use their own held-out test sets, so compare patterns more confidently than rank order.</aside>
+  <div class="cite">Pose CNN and frontier models share the same 60 clips. X3D models use separate held-out test sets.</div>
+  <aside class="notes">Pose CNN records the highest observed exact accuracy at 68% and broad accuracy at 90%. Its result is directly paired with the three frontier models because all four classify the same 60 clips. X3D RGB reaches 62% exact accuracy on a larger, separate test set. Broad accuracy remains higher than exact accuracy for every model.</aside>
 </section>
 
 <section class="slide" data-name="4 · Broad categories" style="gap:32px;padding:74px 120px 70px">
   <div class="kicker">Broad category accuracy</div>
   <h2 style="font-size:82px">Groundstrokes are stable. Volleys expose the <span class="ball">model split.</span></h2>
   <div class="heatmap-wrap">
-    <div class="heatmap-copy"><div class="big-callout">97%</div><p>Claude on groundstrokes<br><span style="color:var(--clay)">10%</span> on volleys</p><div class="hm-scale"><span>0</span><span class="grad"></span><span>100%</span></div></div>
+    <div class="heatmap-copy"><div class="big-callout">100%</div><p>Pose CNN on groundstrokes and serves<br><span style="color:var(--clay)">60%</span> on volleys and overheads</p><div class="hm-scale"><span>0</span><span class="grad"></span><span>100%</span></div></div>
     <div class="heatmap broad-map" id="broad-heatmap"></div>
   </div>
-  <aside class="notes">Groundstrokes are the most reliable broad category across models, ranging from 84% to 97%. The largest failure is Claude on volleys at 10%, even though Claude reaches 97% on groundstrokes and 100% on serves. ChatGPT has the strongest balanced broad-category profile among the frontier models.</aside>
+  <aside class="notes">Pose CNN gets all 30 groundstrokes and all 15 serves into the correct broad family. Its broad errors come from volleys and overheads. Across all models, groundstrokes remain the most reliable broad family. Claude still shows the sharpest category imbalance, with 97% on groundstrokes and 10% on volleys.</aside>
 </section>
 
 <section class="slide" data-name="4 · Class recall" style="gap:28px;padding:66px 120px 62px">
   <div class="kicker">Exact class recall</div>
   <h2 style="font-size:78px">Slice serve and flat serve challenge <span class="ball">every model.</span></h2>
   <div class="heatmap class-map" id="class-heatmap" style="flex:1"></div>
-  <div class="cite">Outlined cells mark classes where every model remains below 50% recall. Frontier results move in 20-point steps because n=5 per class.</div>
-  <aside class="notes">Slice serve has the lowest equal-model mean recall at 17%. Flat serve follows at 35%. Every model stays below 50% recall on both classes. Backhand volley is also difficult overall, but the source of the difficulty differs sharply: the three frontier models average 7% recall, while the trained models average 67%.</aside>
+  <div class="cite">Outlined cells mark classes where every model remains below 50% recall. Frontier and Pose CNN results move in 20-point steps.</div>
+  <aside class="notes">Slice serve has the lowest equal-model mean recall at 17%. Flat serve follows at 33%. Every model stays below 50% recall on both. Pose CNN improves backhand volley to 80% and reaches 100% on backhand, two-hand backhand and forehand flat, but it does not solve the flat-versus-slice serve boundary.</aside>
 </section>
 
 <section class="slide" data-name="4 · Group confusion matrices" style="gap:26px;padding:66px 92px 58px">
@@ -368,35 +370,36 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 
 <section class="slide" data-name="4 · Hardest subtype pairs" style="gap:32px;padding:72px 120px 66px">
   <div class="kicker">Hardest subtype pairs</div>
-  <h2 style="font-size:80px">Serve subtypes form the three strongest <span class="ball">confusions.</span></h2>
+  <h2 style="font-size:80px">Serve subtypes remain the two strongest <span class="ball">confusions.</span></h2>
   <div class="result-legend"><span class="llm"><i></i>frontier mean</span><span class="trained"><i></i>trained mean</span></div>
   <div class="pair-list">
-    <div class="pair-item"><div class="pair-name">Flat serve vs slice serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:80%"></span></div><div class="pair-line trained"><span style="width:34.4%"></span></div></div><div class="pair-values"><b>40.0%</b> frontier<br><b>17.2%</b> trained</div></div>
-    <div class="pair-item"><div class="pair-name">Kick serve vs slice serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:60%"></span></div><div class="pair-line trained"><span style="width:55%"></span></div></div><div class="pair-values"><b>30.0%</b> frontier<br><b>27.5%</b> trained</div></div>
-    <div class="pair-item"><div class="pair-name">Flat serve vs kick serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:26.6%"></span></div><div class="pair-line trained"><span style="width:54.8%"></span></div></div><div class="pair-values"><b>13.3%</b> frontier<br><b>27.4%</b> trained</div></div>
-    <div class="pair-item"><div class="pair-name">Forehand slice vs volley</div><div class="pair-bars"><div class="pair-line llm"><span style="width:26.6%"></span></div><div class="pair-line trained"><span style="width:61.8%"></span></div></div><div class="pair-values"><b>13.3%</b> frontier<br><b>30.9%</b> trained</div></div>
-    <div class="pair-item"><div class="pair-name">Backhand 2H vs forehand flat</div><div class="pair-bars"><div class="pair-line llm"><span style="width:46.6%"></span></div><div class="pair-line trained"><span style="width:20.4%"></span></div></div><div class="pair-values"><b>23.3%</b> frontier<br><b>10.2%</b> trained</div></div>
+    <div class="pair-item"><div class="pair-name">Flat serve vs slice serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:80%"></span></div><div class="pair-line trained"><span style="width:49.6%"></span></div></div><div class="pair-values"><b>40.0%</b> frontier<br><b>24.8%</b> trained</div></div>
+    <div class="pair-item"><div class="pair-name">Kick serve vs slice serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:60%"></span></div><div class="pair-line trained"><span style="width:50%"></span></div></div><div class="pair-values"><b>30.0%</b> frontier<br><b>25.0%</b> trained</div></div>
+    <div class="pair-item"><div class="pair-name">Forehand slice vs volley</div><div class="pair-bars"><div class="pair-line llm"><span style="width:26.6%"></span></div><div class="pair-line trained"><span style="width:61.2%"></span></div></div><div class="pair-values"><b>13.3%</b> frontier<br><b>30.6%</b> trained</div></div>
+    <div class="pair-item"><div class="pair-name">Flat serve vs kick serve</div><div class="pair-bars"><div class="pair-line llm"><span style="width:26.6%"></span></div><div class="pair-line trained"><span style="width:56.6%"></span></div></div><div class="pair-values"><b>13.3%</b> frontier<br><b>28.3%</b> trained</div></div>
+    <div class="pair-item"><div class="pair-name">Backhand 2H vs forehand flat</div><div class="pair-bars"><div class="pair-line llm"><span style="width:46.6%"></span></div><div class="pair-line trained"><span style="width:13.6%"></span></div></div><div class="pair-values"><b>23.3%</b> frontier<br><b>6.8%</b> trained</div></div>
   </div>
-  <aside class="notes">The pair metric averages the two directional error rates. Flat versus slice serve is the hardest pair overall at 31%. Kick versus slice follows at 29%. Trained models reduce flat versus slice confusion, but they still struggle with kick versus slice and flat versus kick. Their largest non-serve confusion is forehand slice versus forehand volley.</aside>
+  <aside class="notes">The pair metric averages the two directional error rates. Flat versus slice serve is the hardest pair overall at 32%. Kick versus slice follows at 27%. Adding Pose CNN raises the trained mean for flat versus slice because Pose confuses those classes in both directions. The largest trained non-serve confusion remains forehand slice versus forehand volley.</aside>
 </section>
 
 <section class="slide" data-name="4 · Shared frontier failures" style="gap:34px;padding:72px 120px 72px">
-  <div class="kicker">Shared frontier failures</div>
-  <h2 style="font-size:80px">The same 15 clips defeat all three frontier <span class="ball">models.</span></h2>
+  <div class="kicker">Pose CNN recovery</div>
+  <h2 style="font-size:80px">Pose CNN recovers <span class="ball">7 of 15</span> shared frontier failures.</h2>
   <div class="shared-layout">
     <div class="shared-stats">
-      <div class="shared-stat"><div class="v">15/60</div><div class="k">all three miss the exact class</div></div>
-      <div class="shared-stat"><div class="v">4/60</div><div class="k">all three miss the broad category</div></div>
+      <div class="shared-stat"><div class="v">7/15</div><div class="k">shared exact failures recovered</div></div>
+      <div class="shared-stat"><div class="v">2/4</div><div class="k">shared broad failures recovered</div></div>
     </div>
     <div class="shared-classes">
-      <div class="shared-class"><div class="nm">Slice serve</div><div class="track"><span style="width:80%"></span></div><div class="v">4/5</div></div>
-      <div class="shared-class"><div class="nm">Backhand volley</div><div class="track"><span style="width:80%"></span></div><div class="v">4/5</div></div>
-      <div class="shared-class"><div class="nm">Forehand volley</div><div class="track"><span style="width:40%"></span></div><div class="v">2/5</div></div>
-      <div class="shared-class"><div class="nm">Six other classes</div><div class="track"><span style="width:20%"></span></div><div class="v">1/5</div></div>
-      <div class="shared-note"><b>Two slice-serve clips draw unanimous wrong labels:</b><br>one flat serve, one kick serve.</div>
+      <div class="shared-class"><div class="nm">Backhand volley</div><div class="track pose"><span style="width:75%"></span></div><div class="v">3/4</div></div>
+      <div class="shared-class"><div class="nm">Forehand slice</div><div class="track pose"><span style="width:100%"></span></div><div class="v">1/1</div></div>
+      <div class="shared-class"><div class="nm">Forehand volley</div><div class="track pose"><span style="width:50%"></span></div><div class="v">1/2</div></div>
+      <div class="shared-class"><div class="nm">Kick serve + smash</div><div class="track pose"><span style="width:100%"></span></div><div class="v">2/2</div></div>
+      <div class="shared-class"><div class="nm">Slice serve</div><div class="track pose"><span style="width:0%"></span></div><div class="v">0/4</div></div>
+      <div class="shared-note"><b>Pose helps on body-defined strokes.</b><br>It does not recover any shared slice-serve failure.</div>
     </div>
   </div>
-  <aside class="notes">The frontier models share 15 exact-class failures, but only four broad-category failures. This confirms that most shared failures stay within the correct shot family. Slice serve and backhand volley each account for four shared misses. Two slice-serve clips produce the same wrong label from all three models.</aside>
+  <aside class="notes">The three frontier models share 15 exact-class failures. Pose CNN correctly classifies seven of those same clips. It recovers three of four backhand-volley failures and the shared failures in forehand slice, kick serve and smash. It recovers none of the four shared slice-serve failures, reinforcing the conclusion that pose alone does not resolve that subtype.</aside>
 </section>
 
 <section class="slide split" data-name="4 · Example · slice serve">
@@ -407,9 +410,10 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
       <div class="p"><span class="m">Claude</span><span class="v no">flat serve</span></div>
       <div class="p"><span class="m">ChatGPT</span><span class="v no">flat serve</span></div>
       <div class="p"><span class="m">Gemini</span><span class="v no">forehand</span></div>
+      <div class="p"><span class="m">Pose CNN</span><span class="v no">flat serve</span></div>
     </div>
   </div>
-  <aside class="notes">Slice serve is the hardest class across all five models. Claude scores 0 of 5 on the frontier subset. ChatGPT and Gemini score 1 of 5 each. Across model families, slice serve moves mainly toward flat serve or kick serve.</aside>
+  <aside class="notes">Slice serve remains the hardest class across all six models. Pose CNN also classifies this clip as flat serve and reaches only 1 of 5 on slice serve overall. Across model families, slice serve moves mainly toward flat serve or kick serve.</aside>
 </section>
 
 <section class="slide split" data-name="4 · Example · smash">
@@ -420,9 +424,10 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
       <div class="p"><span class="m">Claude</span><span class="v no">flat serve</span></div>
       <div class="p"><span class="m">ChatGPT</span><span class="v no">slice serve</span></div>
       <div class="p"><span class="m">Gemini</span><span class="v no">flat serve</span></div>
+      <div class="p"><span class="m">Pose CNN</span><span class="v ok">smash</span></div>
     </div>
   </div>
-  <aside class="notes">All three frontier models classify this smash as a serve. Without a visible ball, the overhead body pattern closely resembles the serve motion. The trained models also move some smash clips into serve classes.</aside>
+  <aside class="notes">All three frontier models classify this smash as a serve, while Pose CNN identifies the smash correctly. Pose recovers this shared frontier failure, although two other smash clips still move into flat serve or kick serve.</aside>
 </section>
 
 <!-- ═════════════════════ 5 · LIMITS ═════════════════════ -->
@@ -434,7 +439,7 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     <div class="li"><div class="b">0</div><div class="t">balls in THETIS</div></div>
     <div class="li"><div class="b">1</div><div class="t">prompt, one run</div></div>
   </div>
-  <aside class="notes"><b>Small frontier sample:</b> five clips per class means one clip changes class recall by 20 points. <b>Different test sets:</b> X3D RGB uses 396 clips, X3D Skeleton 3D uses 250, and each frontier model uses 60. The comparison supports pattern analysis more strongly than precise ranking. <b>Missing cue:</b> THETIS contains no visible ball, so spin, trajectory and bounce are unavailable. <b>Single run:</b> the frontier evaluation uses one prompt and one run per model.</aside>
+  <aside class="notes"><b>Small shared-set sample:</b> Pose CNN and each frontier model use five clips per class, so one clip changes class recall by 20 points. <b>Different test sets:</b> X3D RGB uses 396 clips and X3D Skeleton 3D uses 250; direct ranking across those evaluations is not controlled. The comparison supports pattern analysis more strongly than precise ranking. <b>Missing cue:</b> THETIS contains no visible ball, so spin, trajectory and bounce are unavailable. <b>Single run:</b> the frontier evaluation uses one prompt and one run per model.</aside>
 </section>
 
 <!-- ═════════════════════ 6 · WHAT IT MEANS ═════════════════════ -->
@@ -447,7 +452,7 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     <div class="kicker">What to test next</div>
     <h2>Ball flight is the next test for <span class="ball">serve types.</span></h2>
   </div>
-  <aside class="notes"><b>Supported conclusion:</b> every model performs better on broad category than on exact subtype. Serve subtypes remain the most consistent shared confusion. <b>Hypothesis:</b> the missing ball removes cues that distinguish flat, kick and slice serves. <b>Next experiment:</b> use synthetic or captured clips with visible ball flight and controlled spin, then compare the same models with and without the ball cue.</aside>
+  <aside class="notes"><b>Supported conclusion:</b> every model performs better on broad category than on exact subtype. Pose CNN's 90% broad accuracy and recovery of seven shared frontier failures strengthen the evidence that body motion is sufficient for the shot family. Serve subtypes remain the most consistent shared confusion. <b>Hypothesis:</b> the missing ball removes cues that distinguish flat, kick and slice serves. <b>Next experiment:</b> use synthetic or captured clips with visible ball flight and controlled spin, then compare the same models with and without the ball cue.</aside>
 </section>
 
 <section class="slide title" data-name="Thanks">
@@ -615,24 +620,25 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     ['Claude Opus 5.5','frontier',[.967,.10,1,.60]],
     ['ChatGPT GPT-6','frontier',[.90,.70,.933,.80]],
     ['Gemini Hydrogen','frontier',[.867,.50,.733,.20]],
+    ['Pose CNN','trained pose',[1,.60,1,.60]],
     ['X3D RGB','trained',[.909,.636,.848,.697]],
     ['X3D Skeleton 3D','trained',[.838,.643,.80,.333]]
   ];
   const classRows = [
-    ['Backhand',[1,.00,.20,.697,.652]],
-    ['Backhand 2H',[1,.60,.40,.818,.70]],
-    ['Backhand slice',[.60,.60,.00,.515,.591]],
-    ['Backhand volley',[.00,.20,.00,.697,.636]],
-    ['Flat serve',[.40,.40,.20,.485,.286],true],
-    ['Forehand flat',[.60,.20,.40,.788,.652]],
-    ['Forehand open stance',[.60,.20,.40,.909,.864]],
-    ['Forehand slice',[.60,.20,.40,.727,.30]],
-    ['Forehand volley',[.20,.60,.20,.515,.45]],
-    ['Kick serve',[.60,.40,.60,.333,.524]],
-    ['Slice serve',[.00,.20,.20,.212,.222],true],
-    ['Smash',[.60,.80,.20,.697,.333]]
+    ['Backhand',[1,.00,.20,1,.697,.652]],
+    ['Backhand 2H',[1,.60,.40,1,.818,.70]],
+    ['Backhand slice',[.60,.60,.00,.60,.515,.591]],
+    ['Backhand volley',[.00,.20,.00,.80,.697,.636]],
+    ['Flat serve',[.40,.40,.20,.20,.485,.286],true],
+    ['Forehand flat',[.60,.20,.40,1,.788,.652]],
+    ['Forehand open stance',[.60,.20,.40,.80,.909,.864]],
+    ['Forehand slice',[.60,.20,.40,.80,.727,.30]],
+    ['Forehand volley',[.20,.60,.20,.40,.515,.45]],
+    ['Kick serve',[.60,.40,.60,.80,.333,.524]],
+    ['Slice serve',[.00,.20,.20,.20,.212,.222],true],
+    ['Smash',[.60,.80,.20,.60,.697,.333]]
   ];
-  const classHeads = ['Claude','ChatGPT','Gemini','X3D RGB','X3D skeleton'];
+  const classHeads = ['Claude','ChatGPT','Gemini','Pose CNN','X3D RGB','X3D skeleton'];
   function pct(v){ return Math.round(v*100)+'%'; }
   function hmStyle(v){
     const low = v < .4;
@@ -672,18 +678,18 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     [0,0,0,.067,.200,0,.067,0,0,.067,.067,.533]
   ];
   const trainedMx = [
-    [.675,.015,.022,0,0,.037,.150,0,0,.043,0,.059],
-    [.025,.759,0,.025,0,.050,.116,0,0,0,0,.025],
-    [.068,.045,.553,.152,0,.045,.015,.091,.030,0,0,0],
-    [.015,.045,.114,.667,0,.023,0,.053,.061,0,0,.023],
-    [.048,0,0,0,.385,0,.015,0,0,.318,.108,.126],
-    [0,.154,.015,.015,0,.720,0,.030,0,0,0,.065],
-    [0,.068,0,0,0,.045,.886,0,0,0,0,0],
-    [0,.050,0,.050,0,.080,0,.514,.306,0,0,0],
-    [.025,.075,0,.065,0,.015,0,.312,.483,.025,0,0],
-    [0,0,0,0,.229,0,.015,0,0,.429,.264,.063],
-    [.028,0,0,0,.235,0,.058,0,0,.285,.217,.177],
-    [.028,.028,.028,0,.104,.015,0,0,0,.240,.043,.515]
+    [.783,.010,.014,0,0,.025,.100,0,0,.029,0,.039],
+    [.017,.839,0,.017,0,.033,.077,0,0,0,0,.017],
+    [.179,.030,.569,.101,0,.030,.010,.061,.020,0,0,0],
+    [.010,.030,.142,.711,0,.015,0,.035,.040,0,0,.015],
+    [.032,0,0,0,.324,0,.010,0,0,.345,.205,.084],
+    [0,.103,.010,.010,0,.813,0,.020,0,0,0,.043],
+    [0,.045,0,0,0,.097,.858,0,0,0,0,0],
+    [0,.033,0,.033,0,.120,0,.609,.204,0,0,0],
+    [.017,.050,0,.043,0,.010,0,.408,.455,.017,0,0],
+    [0,0,0,0,.220,0,.010,0,0,.552,.176,.042],
+    [.019,0,0,0,.290,0,.039,0,0,.324,.211,.118],
+    [.019,.019,.019,0,.136,.010,0,0,0,.227,.029,.543]
   ];
   function renderMatrix(id,data){
     const el=document.getElementById(id); if(!el)return;

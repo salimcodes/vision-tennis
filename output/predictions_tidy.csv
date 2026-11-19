@@ -2,180 +2,240 @@ model_id,model,video_id,original_filename,true_class,true_broad_category,predict
 llm_model_a,Claude Opus 5.5,7dec8652,p18_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,7dec8652,p18_backhand_s1.avi,backhand,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,7dec8652,p18_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,backhand,class
+pose_cnn,Pose CNN,7dec8652,p18_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,5150fb08,p27_backhand_s2.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,5150fb08,p27_backhand_s2.avi,backhand,Groundstroke,backhand_volley,Volley,false,false,model_comparison.csv,bvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,5150fb08,p27_backhand_s2.avi,backhand,Groundstroke,backhand_volley,Volley,false,false,gemini_preds.csv + model_comparison.csv truth labels,bvolley,class
+pose_cnn,Pose CNN,5150fb08,p27_backhand_s2.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,82d8c0ff,p36_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,82d8c0ff,p36_backhand_s1.avi,backhand,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,82d8c0ff,p36_backhand_s1.avi,backhand,Groundstroke,forehand_open_stance,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,82d8c0ff,p36_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,d36cff87,p45_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,d36cff87,p45_backhand_s1.avi,backhand,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,d36cff87,p45_backhand_s1.avi,backhand,Groundstroke,forehand_slice,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,d36cff87,p45_backhand_s1.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,ee1cc12b,p9_backhand_s2.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,ee1cc12b,p9_backhand_s2.avi,backhand,Groundstroke,forehand_slice,Groundstroke,false,true,model_comparison.csv,fslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,ee1cc12b,p9_backhand_s2.avi,backhand,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,ee1cc12b,p9_backhand_s2.avi,backhand,Groundstroke,backhand,Groundstroke,true,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,11969cba,p18_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,11969cba,p18_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,11969cba,p18_backhand2h_s3.avi,backhand_2h,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,11969cba,p18_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,pose_cnn_preds.csv,backhand_2h,predicted_class
 llm_model_a,Claude Opus 5.5,3b786d00,p27_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,3b786d00,p27_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,3b786d00,p27_backhand2h_s1.avi,backhand_2h,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,3b786d00,p27_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,pose_cnn_preds.csv,backhand_2h,predicted_class
 llm_model_a,Claude Opus 5.5,9cd66693,p36_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,9cd66693,p36_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,9cd66693,p36_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,backhand2h,class
+pose_cnn,Pose CNN,9cd66693,p36_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,pose_cnn_preds.csv,backhand_2h,predicted_class
 llm_model_a,Claude Opus 5.5,f36f5b2f,p45_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,f36f5b2f,p45_backhand2h_s3.avi,backhand_2h,Groundstroke,forehand_slice,Groundstroke,false,true,model_comparison.csv,fslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,f36f5b2f,p45_backhand2h_s3.avi,backhand_2h,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,f36f5b2f,p45_backhand2h_s3.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,pose_cnn_preds.csv,backhand_2h,predicted_class
 llm_model_a,Claude Opus 5.5,1a1b357e,p9_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,1a1b357e,p9_backhand2h_s1.avi,backhand_2h,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,1a1b357e,p9_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,backhand2h,class
+pose_cnn,Pose CNN,1a1b357e,p9_backhand2h_s1.avi,backhand_2h,Groundstroke,backhand_2h,Groundstroke,true,true,pose_cnn_preds.csv,backhand_2h,predicted_class
 llm_model_a,Claude Opus 5.5,19f07bad,p18_bslice_s1.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,19f07bad,p18_bslice_s1.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,19f07bad,p18_bslice_s1.avi,backhand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,19f07bad,p18_bslice_s1.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,pose_cnn_preds.csv,backhand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,13e366e9,p27_bslice_s3.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,13e366e9,p27_bslice_s3.avi,backhand_slice,Groundstroke,forehand_slice,Groundstroke,false,true,model_comparison.csv,fslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,13e366e9,p27_bslice_s3.avi,backhand_slice,Groundstroke,forehand_slice,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,13e366e9,p27_bslice_s3.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,pose_cnn_preds.csv,backhand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,e4206bd2,p36_bslice_s3.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,e4206bd2,p36_bslice_s3.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,e4206bd2,p36_bslice_s3.avi,backhand_slice,Groundstroke,forehand_slice,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,e4206bd2,p36_bslice_s3.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,pose_cnn_preds.csv,backhand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,3c431ec3,p45_bslice_s2.avi,backhand_slice,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,3c431ec3,p45_bslice_s2.avi,backhand_slice,Groundstroke,backhand_slice,Groundstroke,true,true,model_comparison.csv,bslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,3c431ec3,p45_bslice_s2.avi,backhand_slice,Groundstroke,forehand_slice,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,3c431ec3,p45_bslice_s2.avi,backhand_slice,Groundstroke,backhand,Groundstroke,false,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,0a707427,p9_bslice_s2.avi,backhand_slice,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,0a707427,p9_bslice_s2.avi,backhand_slice,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,0a707427,p9_bslice_s2.avi,backhand_slice,Groundstroke,backhand,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,backhand,class
+pose_cnn,Pose CNN,0a707427,p9_bslice_s2.avi,backhand_slice,Groundstroke,backhand,Groundstroke,false,true,pose_cnn_preds.csv,backhand,predicted_class
 llm_model_a,Claude Opus 5.5,60e11479,p18_foreflat_s3.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,60e11479,p18_foreflat_s3.avi,forehand_flat,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,60e11479,p18_foreflat_s3.avi,forehand_flat,Groundstroke,flat_serve,Serve,false,false,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,60e11479,p18_foreflat_s3.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,81817996,p27_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,81817996,p27_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,81817996,p27_foreflat_s2.avi,forehand_flat,Groundstroke,backhand_2h,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,backhand2h,class
+pose_cnn,Pose CNN,81817996,p27_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,f80635f2,p36_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,f80635f2,p36_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,model_comparison.csv,foreflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,f80635f2,p36_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,f80635f2,p36_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,81d1019a,p55_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,false,true,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,81d1019a,p55_foreflat_s2.avi,forehand_flat,Groundstroke,backhand_2h,Groundstroke,false,true,model_comparison.csv,backhand2h,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,81d1019a,p55_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,81d1019a,p55_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,2a890950,p9_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,2a890950,p9_foreflat_s2.avi,forehand_flat,Groundstroke,backhand_2h,Groundstroke,false,true,model_comparison.csv,backhand2h,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,2a890950,p9_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_open_stance,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,2a890950,p9_foreflat_s2.avi,forehand_flat,Groundstroke,forehand_flat,Groundstroke,true,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,f4176a9c,p18_foreopen_s1.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,f4176a9c,p18_foreopen_s1.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,model_comparison.csv,foreopen,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,f4176a9c,p18_foreopen_s1.avi,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,backhand2h,class
+pose_cnn,Pose CNN,f4176a9c,p18_foreopen_s1.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,pose_cnn_preds.csv,forehand_open_stance,predicted_class
 llm_model_a,Claude Opus 5.5,7ad75124,p27_foreopen_s3.avi,forehand_open_stance,Groundstroke,backhand_2h,Groundstroke,false,true,model_comparison.csv,backhand2h,model_A_predicted
 llm_model_b,ChatGPT GPT-6,7ad75124,p27_foreopen_s3.avi,forehand_open_stance,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,7ad75124,p27_foreopen_s3.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,7ad75124,p27_foreopen_s3.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,pose_cnn_preds.csv,forehand_open_stance,predicted_class
 llm_model_a,Claude Opus 5.5,57f00c32,p36_foreopen_s1.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,57f00c32,p36_foreopen_s1.avi,forehand_open_stance,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,57f00c32,p36_foreopen_s1.avi,forehand_open_stance,Groundstroke,flat_serve,Serve,false,false,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,57f00c32,p36_foreopen_s1.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,pose_cnn_preds.csv,forehand_open_stance,predicted_class
 llm_model_a,Claude Opus 5.5,0910fdbc,p45_foreopen_s2.avi,forehand_open_stance,Groundstroke,smash,Overhead,false,false,model_comparison.csv,smash,model_A_predicted
 llm_model_b,ChatGPT GPT-6,0910fdbc,p45_foreopen_s2.avi,forehand_open_stance,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,0910fdbc,p45_foreopen_s2.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,0910fdbc,p45_foreopen_s2.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,pose_cnn_preds.csv,forehand_open_stance,predicted_class
 llm_model_a,Claude Opus 5.5,dfb3bbb0,p9_foreopen_s2.avi,forehand_open_stance,Groundstroke,forehand_open_stance,Groundstroke,true,true,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,dfb3bbb0,p9_foreopen_s2.avi,forehand_open_stance,Groundstroke,backhand_volley,Volley,false,false,model_comparison.csv,bvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,dfb3bbb0,p9_foreopen_s2.avi,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,dfb3bbb0,p9_foreopen_s2.avi,forehand_open_stance,Groundstroke,forehand_flat,Groundstroke,false,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,e1361ed2,p18_fslice_s2.avi,forehand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,e1361ed2,p18_fslice_s2.avi,forehand_slice,Groundstroke,backhand_volley,Volley,false,false,model_comparison.csv,bvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,e1361ed2,p18_fslice_s2.avi,forehand_slice,Groundstroke,forehand_volley,Volley,false,false,gemini_preds.csv + model_comparison.csv truth labels,fvolley,class
+pose_cnn,Pose CNN,e1361ed2,p18_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,863f523d,p27_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,model_comparison.csv,fslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,863f523d,p27_fslice_s2.avi,forehand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,863f523d,p27_fslice_s2.avi,forehand_slice,Groundstroke,forehand_open_stance,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,863f523d,p27_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,051de6bc,p36_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,model_comparison.csv,fslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,051de6bc,p36_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,model_comparison.csv,fslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,051de6bc,p36_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,051de6bc,p36_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,46b4f472,p45_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,model_comparison.csv,fslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,46b4f472,p45_fslice_s2.avi,forehand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,46b4f472,p45_fslice_s2.avi,forehand_slice,Groundstroke,backhand,Groundstroke,false,true,gemini_preds.csv + model_comparison.csv truth labels,backhand,class
+pose_cnn,Pose CNN,46b4f472,p45_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,1fb98ebb,p9_fslice_s2.avi,forehand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,1fb98ebb,p9_fslice_s2.avi,forehand_slice,Groundstroke,backhand,Groundstroke,false,true,model_comparison.csv,backhand,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,1fb98ebb,p9_fslice_s2.avi,forehand_slice,Groundstroke,forehand_slice,Groundstroke,true,true,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,1fb98ebb,p9_fslice_s2.avi,forehand_slice,Groundstroke,forehand_flat,Groundstroke,false,true,pose_cnn_preds.csv,forehand_flat,predicted_class
 llm_model_a,Claude Opus 5.5,7a2d5526,p18_bvolley_s2.avi,backhand_volley,Volley,backhand,Groundstroke,false,false,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,7a2d5526,p18_bvolley_s2.avi,backhand_volley,Volley,forehand_slice,Groundstroke,false,false,model_comparison.csv,fslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,7a2d5526,p18_bvolley_s2.avi,backhand_volley,Volley,forehand_slice,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,7a2d5526,p18_bvolley_s2.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,pose_cnn_preds.csv,backhand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,ea541de3,p27_bvolley_s2.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,ea541de3,p27_bvolley_s2.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,model_comparison.csv,bslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,ea541de3,p27_bvolley_s2.avi,backhand_volley,Volley,forehand_slice,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,ea541de3,p27_bvolley_s2.avi,backhand_volley,Volley,backhand_volley,Volley,true,true,pose_cnn_preds.csv,backhand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,bb380ba8,p36_bvolley_s2.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,bb380ba8,p36_bvolley_s2.avi,backhand_volley,Volley,backhand_volley,Volley,true,true,model_comparison.csv,bvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,bb380ba8,p36_bvolley_s2.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,bslice,class
+pose_cnn,Pose CNN,bb380ba8,p36_bvolley_s2.avi,backhand_volley,Volley,backhand_volley,Volley,true,true,pose_cnn_preds.csv,backhand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,e60d8ca4,p45_bvolley_s3.avi,backhand_volley,Volley,backhand_slice,Groundstroke,false,false,model_comparison.csv,bslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,e60d8ca4,p45_bvolley_s3.avi,backhand_volley,Volley,forehand_volley,Volley,false,true,model_comparison.csv,fvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,e60d8ca4,p45_bvolley_s3.avi,backhand_volley,Volley,forehand_volley,Volley,false,true,gemini_preds.csv + model_comparison.csv truth labels,fvolley,class
+pose_cnn,Pose CNN,e60d8ca4,p45_bvolley_s3.avi,backhand_volley,Volley,backhand_volley,Volley,true,true,pose_cnn_preds.csv,backhand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,0ab83d4f,p9_bvolley_s1.avi,backhand_volley,Volley,backhand,Groundstroke,false,false,model_comparison.csv,backhand,model_A_predicted
 llm_model_b,ChatGPT GPT-6,0ab83d4f,p9_bvolley_s1.avi,backhand_volley,Volley,forehand_volley,Volley,false,true,model_comparison.csv,fvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,0ab83d4f,p9_bvolley_s1.avi,backhand_volley,Volley,forehand_volley,Volley,false,true,gemini_preds.csv + model_comparison.csv truth labels,fvolley,class
+pose_cnn,Pose CNN,0ab83d4f,p9_bvolley_s1.avi,backhand_volley,Volley,backhand_volley,Volley,true,true,pose_cnn_preds.csv,backhand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,f2068cb5,p18_fvolley_s2.avi,forehand_volley,Volley,forehand_flat,Groundstroke,false,false,model_comparison.csv,foreflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,f2068cb5,p18_fvolley_s2.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,model_comparison.csv,fvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,f2068cb5,p18_fvolley_s2.avi,forehand_volley,Volley,backhand_volley,Volley,false,true,gemini_preds.csv + model_comparison.csv truth labels,bvolley,class
+pose_cnn,Pose CNN,f2068cb5,p18_fvolley_s2.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,890671a1,p27_fvolley_s1.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,model_comparison.csv,fslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,890671a1,p27_fvolley_s1.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,model_comparison.csv,fvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,890671a1,p27_fvolley_s1.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,fslice,class
+pose_cnn,Pose CNN,890671a1,p27_fvolley_s1.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,pose_cnn_preds.csv,forehand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,d5b3d30d,p36_fvolley_s2.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,model_comparison.csv,fvolley,model_A_predicted
 llm_model_b,ChatGPT GPT-6,d5b3d30d,p36_fvolley_s2.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,model_comparison.csv,fvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,d5b3d30d,p36_fvolley_s2.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,gemini_preds.csv + model_comparison.csv truth labels,fvolley,class
+pose_cnn,Pose CNN,d5b3d30d,p36_fvolley_s2.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,c0b5dcc4,p45_fvolley_s3.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,model_comparison.csv,fslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,c0b5dcc4,p45_fvolley_s3.avi,forehand_volley,Volley,backhand_volley,Volley,false,true,model_comparison.csv,bvolley,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,c0b5dcc4,p45_fvolley_s3.avi,forehand_volley,Volley,backhand_volley,Volley,false,true,gemini_preds.csv + model_comparison.csv truth labels,bvolley,class
+pose_cnn,Pose CNN,c0b5dcc4,p45_fvolley_s3.avi,forehand_volley,Volley,forehand_volley,Volley,true,true,pose_cnn_preds.csv,forehand_volley,predicted_class
 llm_model_a,Claude Opus 5.5,46bdfee2,p9_fvolley_s3.avi,forehand_volley,Volley,forehand_open_stance,Groundstroke,false,false,model_comparison.csv,foreopen,model_A_predicted
 llm_model_b,ChatGPT GPT-6,46bdfee2,p9_fvolley_s3.avi,forehand_volley,Volley,backhand_slice,Groundstroke,false,false,model_comparison.csv,bslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,46bdfee2,p9_fvolley_s3.avi,forehand_volley,Volley,forehand_flat,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,foreflat,class
+pose_cnn,Pose CNN,46bdfee2,p9_fvolley_s3.avi,forehand_volley,Volley,forehand_slice,Groundstroke,false,false,pose_cnn_preds.csv,forehand_slice,predicted_class
 llm_model_a,Claude Opus 5.5,d14b0c9e,p18_serflat_s3.avi,flat_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,d14b0c9e,p18_serflat_s3.avi,flat_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,d14b0c9e,p18_serflat_s3.avi,flat_serve,Serve,flat_serve,Serve,true,true,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,d14b0c9e,p18_serflat_s3.avi,flat_serve,Serve,slice_serve,Serve,false,true,pose_cnn_preds.csv,slice_serve,predicted_class
 llm_model_a,Claude Opus 5.5,cd7f467c,p27_serflat_s2.avi,flat_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,cd7f467c,p27_serflat_s2.avi,flat_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,cd7f467c,p27_serflat_s2.avi,flat_serve,Serve,slice_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serslice,class
+pose_cnn,Pose CNN,cd7f467c,p27_serflat_s2.avi,flat_serve,Serve,slice_serve,Serve,false,true,pose_cnn_preds.csv,slice_serve,predicted_class
 llm_model_a,Claude Opus 5.5,4b21ba3e,p36_serflat_s2.avi,flat_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,4b21ba3e,p36_serflat_s2.avi,flat_serve,Serve,flat_serve,Serve,true,true,model_comparison.csv,serflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,4b21ba3e,p36_serflat_s2.avi,flat_serve,Serve,backhand,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,backhand,class
+pose_cnn,Pose CNN,4b21ba3e,p36_serflat_s2.avi,flat_serve,Serve,kick_serve,Serve,false,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,aca91f11,p45_serflat_s3.avi,flat_serve,Serve,flat_serve,Serve,true,true,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,aca91f11,p45_serflat_s3.avi,flat_serve,Serve,smash,Overhead,false,false,model_comparison.csv,smash,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,aca91f11,p45_serflat_s3.avi,flat_serve,Serve,slice_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serslice,class
+pose_cnn,Pose CNN,aca91f11,p45_serflat_s3.avi,flat_serve,Serve,flat_serve,Serve,true,true,pose_cnn_preds.csv,flat_serve,predicted_class
 llm_model_a,Claude Opus 5.5,8c182b27,p9_serflat_s1.avi,flat_serve,Serve,flat_serve,Serve,true,true,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,8c182b27,p9_serflat_s1.avi,flat_serve,Serve,flat_serve,Serve,true,true,model_comparison.csv,serflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,8c182b27,p9_serflat_s1.avi,flat_serve,Serve,slice_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serslice,class
+pose_cnn,Pose CNN,8c182b27,p9_serflat_s1.avi,flat_serve,Serve,kick_serve,Serve,false,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,e704d5ff,p18_serkick_s2.avi,kick_serve,Serve,kick_serve,Serve,true,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,e704d5ff,p18_serkick_s2.avi,kick_serve,Serve,kick_serve,Serve,true,true,model_comparison.csv,serkick,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,e704d5ff,p18_serkick_s2.avi,kick_serve,Serve,kick_serve,Serve,true,true,gemini_preds.csv + model_comparison.csv truth labels,serkick,class
+pose_cnn,Pose CNN,e704d5ff,p18_serkick_s2.avi,kick_serve,Serve,kick_serve,Serve,true,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,82c37308,p27_serkick_s1.avi,kick_serve,Serve,kick_serve,Serve,true,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,82c37308,p27_serkick_s1.avi,kick_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,82c37308,p27_serkick_s1.avi,kick_serve,Serve,smash,Overhead,false,false,gemini_preds.csv + model_comparison.csv truth labels,smash,class
+pose_cnn,Pose CNN,82c37308,p27_serkick_s1.avi,kick_serve,Serve,flat_serve,Serve,false,true,pose_cnn_preds.csv,flat_serve,predicted_class
 llm_model_a,Claude Opus 5.5,7ae79adb,p36_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,7ae79adb,p36_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,model_comparison.csv,serkick,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,7ae79adb,p36_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,gemini_preds.csv + model_comparison.csv truth labels,serkick,class
+pose_cnn,Pose CNN,7ae79adb,p36_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,34f8dffa,p45_serkick_s3.avi,kick_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,34f8dffa,p45_serkick_s3.avi,kick_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,34f8dffa,p45_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,gemini_preds.csv + model_comparison.csv truth labels,serkick,class
+pose_cnn,Pose CNN,34f8dffa,p45_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,3fb5bf5f,p9_serkick_s3.avi,kick_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_A_predicted
 llm_model_b,ChatGPT GPT-6,3fb5bf5f,p9_serkick_s3.avi,kick_serve,Serve,slice_serve,Serve,false,true,model_comparison.csv,serslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,3fb5bf5f,p9_serkick_s3.avi,kick_serve,Serve,flat_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,3fb5bf5f,p9_serkick_s3.avi,kick_serve,Serve,kick_serve,Serve,true,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,18f89afa,p18_serslice_s3.avi,slice_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,18f89afa,p18_serslice_s3.avi,slice_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,18f89afa,p18_serslice_s3.avi,slice_serve,Serve,forehand_open_stance,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,18f89afa,p18_serslice_s3.avi,slice_serve,Serve,flat_serve,Serve,false,true,pose_cnn_preds.csv,flat_serve,predicted_class
 llm_model_a,Claude Opus 5.5,291e6624,p27_serslice_s2.avi,slice_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,291e6624,p27_serslice_s2.avi,slice_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,291e6624,p27_serslice_s2.avi,slice_serve,Serve,flat_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,291e6624,p27_serslice_s2.avi,slice_serve,Serve,flat_serve,Serve,false,true,pose_cnn_preds.csv,flat_serve,predicted_class
 llm_model_a,Claude Opus 5.5,17fbb268,p36_serslice_s2.avi,slice_serve,Serve,flat_serve,Serve,false,true,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,17fbb268,p36_serslice_s2.avi,slice_serve,Serve,slice_serve,Serve,true,true,model_comparison.csv,serslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,17fbb268,p36_serslice_s2.avi,slice_serve,Serve,slice_serve,Serve,true,true,gemini_preds.csv + model_comparison.csv truth labels,serslice,class
+pose_cnn,Pose CNN,17fbb268,p36_serslice_s2.avi,slice_serve,Serve,slice_serve,Serve,true,true,pose_cnn_preds.csv,slice_serve,predicted_class
 llm_model_a,Claude Opus 5.5,c7bb3504,p45_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,c7bb3504,p45_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,c7bb3504,p45_serslice_s2.avi,slice_serve,Serve,smash,Overhead,false,false,gemini_preds.csv + model_comparison.csv truth labels,smash,class
+pose_cnn,Pose CNN,c7bb3504,p45_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,d1de6c88,p9_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_A_predicted
 llm_model_b,ChatGPT GPT-6,d1de6c88,p9_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,model_comparison.csv,serkick,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,d1de6c88,p9_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,gemini_preds.csv + model_comparison.csv truth labels,serkick,class
+pose_cnn,Pose CNN,d1de6c88,p9_serslice_s2.avi,slice_serve,Serve,kick_serve,Serve,false,true,pose_cnn_preds.csv,kick_serve,predicted_class
 llm_model_a,Claude Opus 5.5,dbde7907,p18_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_A_predicted
 llm_model_b,ChatGPT GPT-6,dbde7907,p18_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,dbde7907,p18_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,gemini_preds.csv + model_comparison.csv truth labels,smash,class
+pose_cnn,Pose CNN,dbde7907,p18_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,pose_cnn_preds.csv,smash,predicted_class
 llm_model_a,Claude Opus 5.5,7a39e967,p27_smash_s3.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_A_predicted
 llm_model_b,ChatGPT GPT-6,7a39e967,p27_smash_s3.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,7a39e967,p27_smash_s3.avi,smash,Overhead,forehand_open_stance,Groundstroke,false,false,gemini_preds.csv + model_comparison.csv truth labels,foreopen,class
+pose_cnn,Pose CNN,7a39e967,p27_smash_s3.avi,smash,Overhead,flat_serve,Serve,false,false,pose_cnn_preds.csv,flat_serve,predicted_class
 llm_model_a,Claude Opus 5.5,c778def7,p36_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_A_predicted
 llm_model_b,ChatGPT GPT-6,c778def7,p36_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,c778def7,p36_smash_s2.avi,smash,Overhead,backhand_volley,Volley,false,false,gemini_preds.csv + model_comparison.csv truth labels,bvolley,class
+pose_cnn,Pose CNN,c778def7,p36_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,pose_cnn_preds.csv,smash,predicted_class
 llm_model_a,Claude Opus 5.5,bbd13102,p45_smash_s2.avi,smash,Overhead,flat_serve,Serve,false,false,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,bbd13102,p45_smash_s2.avi,smash,Overhead,slice_serve,Serve,false,false,model_comparison.csv,serslice,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,bbd13102,p45_smash_s2.avi,smash,Overhead,flat_serve,Serve,false,false,gemini_preds.csv + model_comparison.csv truth labels,serflat,class
+pose_cnn,Pose CNN,bbd13102,p45_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,pose_cnn_preds.csv,smash,predicted_class
 llm_model_a,Claude Opus 5.5,da9bdca8,p9_smash_s2.avi,smash,Overhead,flat_serve,Serve,false,false,model_comparison.csv,serflat,model_A_predicted
 llm_model_b,ChatGPT GPT-6,da9bdca8,p9_smash_s2.avi,smash,Overhead,smash,Overhead,true,true,model_comparison.csv,smash,model_B_predicted
 gemini_hydrogen,Gemini Hydrogen,da9bdca8,p9_smash_s2.avi,smash,Overhead,kick_serve,Serve,false,false,gemini_preds.csv + model_comparison.csv truth labels,serkick,class
+pose_cnn,Pose CNN,da9bdca8,p9_smash_s2.avi,smash,Overhead,kick_serve,Serve,false,false,pose_cnn_preds.csv,kick_serve,predicted_class

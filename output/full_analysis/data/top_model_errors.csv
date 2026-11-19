@@ -23,6 +23,14 @@ Gemini Hydrogen,5,backhand_volley,forehand_volley,0.4,2,5
 Gemini Hydrogen,6,backhand_volley,forehand_slice,0.4,2,5
 Gemini Hydrogen,7,forehand_slice,forehand_volley,0.2,1,5
 Gemini Hydrogen,8,forehand_slice,forehand_open_stance,0.2,1,5
+Pose CNN,1,forehand_volley,forehand_slice,0.6,3,5
+Pose CNN,2,slice_serve,flat_serve,0.4,2,5
+Pose CNN,3,slice_serve,kick_serve,0.4,2,5
+Pose CNN,4,flat_serve,kick_serve,0.4,2,5
+Pose CNN,5,flat_serve,slice_serve,0.4,2,5
+Pose CNN,6,backhand_slice,backhand,0.4,2,5
+Pose CNN,7,backhand_volley,backhand_slice,0.2,1,5
+Pose CNN,8,smash,kick_serve,0.2,1,5
 X3D RGB,1,forehand_volley,forehand_slice,0.42424242424242425,14,33
 X3D RGB,2,kick_serve,flat_serve,0.36363636363636365,12,33
 X3D RGB,3,flat_serve,kick_serve,0.30303030303030304,10,33

@@ -1,0 +1,13 @@
+true_class,clips,shared_llm_failures,recovered_by_pose
+backhand,5,0,0
+backhand_2h,5,0,0
+backhand_slice,5,1,0
+backhand_volley,5,4,3
+flat_serve,5,1,0
+forehand_flat,5,0,0
+forehand_open_stance,5,0,0
+forehand_slice,5,1,1
+forehand_volley,5,2,1
+kick_serve,5,1,1
+slice_serve,5,4,0
+smash,5,1,1

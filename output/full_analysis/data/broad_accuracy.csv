@@ -11,6 +11,10 @@ Gemini Hydrogen,LLM,Groundstroke,30,26,0.8666666666666667
 Gemini Hydrogen,LLM,Volley,10,5,0.5
 Gemini Hydrogen,LLM,Serve,15,11,0.7333333333333333
 Gemini Hydrogen,LLM,Overhead,5,1,0.2
+Pose CNN,Trained,Groundstroke,30,30,1.0
+Pose CNN,Trained,Volley,10,6,0.6
+Pose CNN,Trained,Serve,15,15,1.0
+Pose CNN,Trained,Overhead,5,3,0.6
 X3D RGB,Trained,Groundstroke,198,180,0.9090909090909091
 X3D RGB,Trained,Volley,66,42,0.6363636363636364
 X3D RGB,Trained,Serve,99,84,0.8484848484848485

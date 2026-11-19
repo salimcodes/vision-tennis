@@ -80,6 +80,8 @@ h2{font-size:112px}
   display:flex;flex-direction:column;gap:22px;pointer-events:none}
 .slide.full .cap .chips{pointer-events:auto}
 .slide.full .cap.top{top:0;bottom:auto;padding:84px 120px 200px;background:linear-gradient(to bottom,rgba(10,10,11,.92),transparent)}
+.slide.full.inset > .media{inset:auto;top:290px;left:50%;width:1156px;height:520px;margin-left:-578px;border-radius:28px}
+.slide.full.inset .cap{background:none}
 
 /* split */
 .slide.split{flex-direction:row;gap:48px;padding:72px}
@@ -284,8 +286,24 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
   <aside class="notes">Can a model tell a flat, slice and kick serve apart from video?</aside>
 </section>
 
-<section class="slide full" data-name="1 · In or out? Solved">
-  <figure class="media" data-id="wimbledon" data-yt="SkybVYM8Jn0" data-title="End of the line judges at Wimbledon"></figure>
+<section class="slide full inset" data-name="1 · In or out? Solved">
+  <figure class="media" data-id="wimbledon" data-src="media/inandout-1.mp4" data-label="In or out? · electronic line calling"></figure>
+  <div class="cap top">
+    <div class="kicker">In or out?</div>
+    <div><span class="stamp">SOLVED</span></div>
+  </div>
+  <div class="cap">
+    <div class="timeline">
+      <div class="ev"><div class="y">2021</div><div class="w">Australian Open · all courts</div></div>
+      <div class="ev"><div class="y">2025</div><div class="w">Whole ATP Tour</div></div>
+      <div class="ev"><div class="y ball">2025</div><div class="w">Wimbledon · after 148 yrs</div></div>
+    </div>
+  </div>
+  <aside class="notes"><b>Why care, part 1:</b> computer vision already officiates tennis. Electronic line calling replaced line judges at the Australian Open in 2021, across the ATP Tour in 2025, and at Wimbledon in 2025. Whether the ball is in or out is a solved problem.</aside>
+</section>
+
+<section class="slide full inset" data-name="1 · In or out? Solved">
+  <figure class="media" data-id="wimbledon-2" data-src="media/inandout-2.mp4" data-label="In or out? · electronic line calling"></figure>
   <div class="cap top">
     <div class="kicker">In or out?</div>
     <div><span class="stamp">SOLVED</span></div>

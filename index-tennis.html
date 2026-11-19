@@ -501,9 +501,18 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     dbp = new Promise((res) => {
       try {
         const r = indexedDB.open('serve-deck-media', 1);
+        let settled = false;
+        const done = value => {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timer);
+          res(value);
+        };
+        const timer = setTimeout(() => done(null), 800);
         r.onupgradeneeded = () => r.result.createObjectStore('m');
-        r.onsuccess = () => res(r.result);
-        r.onerror = () => res(null);
+        r.onsuccess = () => done(r.result);
+        r.onerror = () => done(null);
+        r.onblocked = () => done(null);
       } catch(e){ res(null); }
     });
     return dbp;
@@ -578,12 +587,7 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
     }
   }
 
-  async function render(fig){
-    const stored = await idb('get', fig.dataset.id);
-    if (stored && stored.blob){
-      showFile(fig, URL.createObjectURL(stored.blob), stored.type.startsWith('video'));
-      addClear(fig); return;
-    }
+  function renderBundled(fig){
     if (fig.dataset.yt){ ytFacade(fig); return; }
     if (fig.dataset.src){
       const video = isVid(fig.dataset.src);
@@ -592,6 +596,18 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
       return;
     }
     placeholder(fig);
+  }
+
+  async function render(fig){
+    // Do not make bundled media depend on browser storage. IndexedDB can be
+    // unavailable or remain blocked when this deck is opened as a local file
+    // or inside a presentation preview.
+    renderBundled(fig);
+    const stored = await idb('get', fig.dataset.id);
+    if (stored && stored.blob){
+      showFile(fig, URL.createObjectURL(stored.blob), stored.type.startsWith('video'));
+      addClear(fig);
+    }
   }
 
   async function storeFile(fig, file){

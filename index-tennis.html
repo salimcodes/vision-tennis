@@ -254,6 +254,18 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
 .shared-class .v{font-family:var(--mono);font-size:22px;text-align:right}
 .shared-note{border-top:1px solid var(--line);padding-top:24px;font-size:28px;color:var(--mute);line-height:1.15}
 .shared-note b{color:var(--ink)}
+
+/* Unity proof of concept */
+.slide.prototype{gap:24px;padding:58px 90px 46px}
+.slide.prototype h2{font-size:76px}
+.prototype-row{display:grid;grid-template-columns:1fr 1fr;gap:38px;flex:1;min-height:0}
+.prototype-item{display:grid;grid-template-rows:auto 1fr;gap:12px;min-height:0}
+.prototype-label{display:flex;align-items:baseline;justify-content:space-between;gap:24px}
+.prototype-label b{font-size:34px;letter-spacing:-.02em}
+.prototype-label span{font-family:var(--mono);font-size:18px;color:var(--mute);text-align:right}
+.prototype-label .miss{color:var(--clay)}
+.prototype-label .hit{color:var(--ball)}
+.prototype-row .media{min-height:0;border:1.5px solid var(--line);border-radius:22px}
 </style>
 </head>
 <body>
@@ -455,8 +467,25 @@ body.overview #ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(300
   <aside class="notes"><b>Supported conclusion:</b> every model performs better on broad category than on exact subtype. Pose CNN's 90% broad accuracy and recovery of seven shared frontier failures strengthen the evidence that body motion is sufficient for the shot family. Serve subtypes remain the most consistent shared confusion. <b>Hypothesis:</b> the missing ball removes cues that distinguish flat, kick and slice serves. <b>Next experiment:</b> use synthetic or captured clips with visible ball flight and controlled spin, then compare the same models with and without the ball cue.</aside>
 </section>
 
+<section class="slide prototype" data-name="7 · Unity proof of concept">
+  <div class="kicker">Next phase · Unity proof of concept</div>
+  <h2>THETIS serves now replay from new <span class="ball">camera angles.</span></h2>
+  <div class="prototype-row">
+    <div class="prototype-item">
+      <div class="prototype-label"><b>Player 19 · beginner</b><span class="miss">all three serves misclassified</span></div>
+      <figure class="media contain" data-id="unity-p19" data-src="media/tennis_serves_p19_all_wrong.mp4" data-label="Unity reconstruction · Player 19"></figure>
+    </div>
+    <div class="prototype-item">
+      <div class="prototype-label"><b>Player 36 · expert</b><span class="hit">all three serves correct</span></div>
+      <figure class="media contain" data-id="unity-p36" data-src="media/tennis_serves_p36_all_right.mp4" data-label="Unity reconstruction · Player 36"></figure>
+    </div>
+  </div>
+  <div class="cite">MediaPipe Holistic 3D reconstructed in Unity. Prototype only; no retraining results yet.</div>
+  <aside class="notes"><b>Proof of concept:</b> we extracted MediaPipe Holistic 3D landmarks from difficult THETIS serves and replayed the motion in Unity. The left clip shows Player 19, whose flat, kick and slice serves the Pose CNN misclassified. The right shows Player 36, whose three serves it classified correctly. Each sequence appears from the front, side and a three-quarter overhead view. <b>What this establishes:</b> we can carry real THETIS motion into a controllable 3D environment and inspect the same serve from viewpoints the original dataset does not provide. <b>Current limit:</b> time constraints prevented us from generating enough Unity data to retrain the models or measure improvement. <b>Next phase:</b> vary camera angle systematically, add controlled ball flight and spin, then export labeled sequences for training and targeted evaluation of the failure cases.</aside>
+</section>
+
 <section class="slide title" data-name="Thanks">
-  <div class="kicker">Next: add the ball · Unity</div>
+  <div class="kicker">Next: more viewpoints and ball flight</div>
   <h1>Thank <span class="ball">you.</span></h1>
 </section>
 
